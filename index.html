@@ -163,7 +163,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <div class="footer-section-heading">
-            <p>©Copyright 2023 <b><a href="https://mrlakshportfolio.laksh11nov.repl.co/">MrLakshPortfolio</a></b> All
+            <p>©Copyright 2023 <b><a href="https://laksh11nov.github.io/MrLakshPortfolio.github.io/">MrLakshPortfolio</a></b> All
               Rights
               Reserved</p>
           </div>
@@ -188,7 +188,7 @@
 
     form.addEventListener('submit', e => {
       e.preventDefault()
-      fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => alert("Success!!"))
         .catch(error => console.error('Error!', error.message));
     })
