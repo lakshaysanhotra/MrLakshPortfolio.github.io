@@ -341,4 +341,7 @@ body {
     .header{
       background-image: url(../img/Untitled-1.jpg);
     }
+    .home-contant h1{
+      font-size: 40px;
+    }
 }
