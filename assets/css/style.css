@@ -80,16 +80,16 @@ body {
   align-content: center;
 }
 
-.home-contant {
+/* .home-contant {
   animation: move-images 1000ms forwards ease-in-out;
   transform: translateX(-100%);
-}
+} */
 
-@keyframes move-images {
+/* @keyframes move-images {
   to {
     transform: translateX(0);
   }
-}
+} */
 
 .home-contant h1 {
   font-weight: 700;

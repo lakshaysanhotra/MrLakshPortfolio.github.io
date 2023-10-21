@@ -1,3 +1,6 @@
+// scroll screen animation js
+
+
 let calcScrollValue = () => {
     let scrollProgress = document.getElementById("progress");
     let progressValue = document.getElementById("progress_value");
@@ -24,3 +27,6 @@ let calcScrollValue = () => {
   
   window.addEventListener("scroll", calcScrollValue);
   
+
+  // gsap animation js
+  gsap.from('.home-contant', {opacity: -1, duration: 0.8, delay:0.2, x:-100})
