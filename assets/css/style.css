@@ -344,4 +344,8 @@ body {
     .home-contant h1{
       font-size: 40px;
     }
+    .home-contant{
+      text-align: center;
+    }
+
 }
