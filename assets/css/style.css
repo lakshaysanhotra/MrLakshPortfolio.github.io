@@ -338,8 +338,8 @@ body {
 /* make a responsive */
 @media only screen and (max-width: 600px) {
     .header{
-      background-color: #000000;
-      background-image: none;
+      background-image: none !important;
+      background-color: #000000 !important;
     }
     .home-contant h1{
       font-size: 40px;
