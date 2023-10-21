@@ -340,6 +340,7 @@ body {
 @media only screen and (max-width: 600px) {
     .header{
       background-color: #000000;
+      background-image: none;
     }
     .home-contant h1{
       font-size: 40px;
