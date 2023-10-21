@@ -16,7 +16,9 @@
   --theme: rgb(252, 84, 9);
   ;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #000000;
   color: var(--textcolor);
@@ -336,6 +338,31 @@ body {
 }
 .phone-hidden{
   display: none;
+}
+
+/* progress value section css */
+#progress{
+  /* background-color: #fd5407; */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#progress_value{
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #000000;
 }
 
 /* make a responsive */
