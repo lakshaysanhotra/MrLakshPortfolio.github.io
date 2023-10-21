@@ -124,11 +124,9 @@ body {
 }
 
 /* testing */
-
 .home-btns {
   display: flex;
   gap: 20px;
-  justify-content: center;
 }
 
 .button1 {
@@ -348,6 +346,9 @@ body {
     }
     .home-contant{
       text-align: center;
+    }
+    .home-btns {
+      justify-content: center;
     }
 
 }
