@@ -30,3 +30,5 @@ let calcScrollValue = () => {
 
   // gsap animation js
   gsap.from('.home-contant', {opacity: -1, duration: 0.8, delay:0.2, x:-100})
+
+  gsap.from('#whatsapp', {opacity: -1, duration: 0.8, delay: 2, y: 100})
