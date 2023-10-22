@@ -409,6 +409,10 @@ body {
     .phone-hidden{
       display: block;
     }
+    .topbar_section{
+      background-color: #000000;
+    z-index: 99;
+    }
 
 }
 @media only screen and (max-width: 720px){
@@ -427,6 +431,10 @@ body {
   .phone-hidden{
     display: block;
   }
+  .topbar_section{
+    background-color: #000000;
+    z-index: 99;
+  }
 }
 @media only screen and (max-width: 960px){
   .header{
@@ -443,5 +451,9 @@ body {
   }
   .phone-hidden{
     display: block;
+  }
+  .topbar_section{
+    background-color: #000000;
+    z-index: 99;
   }
 }
