@@ -233,8 +233,10 @@ body {
 }
 
 .services-box {
-  border: 2px solid var(--bgcolor);
-  border-radius: 10px;
+  /* border: 2px solid var(--bgcolor); */
+  border-top: 3px solid var(--bgcolor);
+  border-bottom: 3px solid var(--bgcolor);
+  border-radius: 20px;
 }
 
 .services-box i {
