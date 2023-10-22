@@ -32,3 +32,5 @@ let calcScrollValue = () => {
   gsap.from('.home-contant', {opacity: -1, duration: 0.8, delay:0.2, y:100})
 
   gsap.from('.about-img', {opacity: -1, duration: 0.8, delay:0.2, y:-100})
+
+  gsap.from('#progress', {opacity: -1, duration: 0.8, delay:3, y: 100})
