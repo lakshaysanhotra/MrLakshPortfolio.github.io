@@ -29,8 +29,8 @@ let calcScrollValue = () => {
   
 
   // gsap animation js
-  gsap.from('.home-contant', {opacity: -1, duration: 0.8, delay:0.2, y:100})
+  gsap.from('.home-contant', {opacity: -1, duration: 1.5, delay:0.2, y:100})
 
-  gsap.from('.about-img', {opacity: -1, duration: 0.8, delay:0.2, y:-100})
+  gsap.from('.about-img', {opacity: -1, duration: 1.5, delay:0.2, y:-100})
 
-  gsap.from('#progress', {opacity: -1, duration: 0.8, delay:3, y: 100})
+  gsap.from('#progress', {opacity: -1, duration: 1.1, delay:3, y: 100})
