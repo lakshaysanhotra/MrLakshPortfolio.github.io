@@ -26,7 +26,6 @@ let calcScrollValue = () => {
   };
   
   window.addEventListener("scroll", calcScrollValue);
-  
 
   // gsap animation js
   gsap.from('.home-contant', {opacity: -1, duration: 1.5, delay:0.2, y:100})
